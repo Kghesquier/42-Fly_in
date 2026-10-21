@@ -1,0 +1,7 @@
+# the only path crosses a blocked zone
+nb_drones: 2
+start_hub: start 0 0 [color=green]
+hub: wall 1 0 [zone=blocked color=gray]
+end_hub: goal 2 0 [color=red]
+connection: start-wall
+connection: wall-goal

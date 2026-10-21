@@ -1,0 +1,8 @@
+# start and goal are in two separate components
+nb_drones: 3
+start_hub: start 0 0 [color=green]
+hub: island 1 0 [color=blue]
+hub: far 5 0 [color=blue]
+end_hub: goal 6 0 [color=red]
+connection: start-island
+connection: far-goal

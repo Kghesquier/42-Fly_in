@@ -1,0 +1,6 @@
+nb_drones: 50
+start_hub: start 0 0 [color=green max_drones=3]
+hub: hall 1 0 [color=blue max_drones=1000000]
+end_hub: goal 2 0 [color=red max_drones=1]
+connection: start-hall [max_link_capacity=1000000]
+connection: hall-goal [max_link_capacity=1000000]

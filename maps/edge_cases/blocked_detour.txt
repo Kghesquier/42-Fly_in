@@ -1,0 +1,12 @@
+# blocked shortcut, drones must use the long way
+nb_drones: 3
+start_hub: start 0 0 [color=green]
+hub: shortcut 1 0 [zone=blocked color=gray]
+hub: d1 1 1 [color=blue]
+hub: d2 2 1 [color=blue]
+end_hub: goal 2 0 [color=red]
+connection: start-shortcut
+connection: shortcut-goal
+connection: start-d1
+connection: d1-d2
+connection: d2-goal
